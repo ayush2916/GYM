@@ -1,5 +1,19 @@
-.navbar{
+.con{
+  /* background-color: black; */
 padding-top:20px;
 padding-bottom:20px;
-background-color:black;
+}
+.front{
+  height:650px;
+  background-image: url("main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-link{
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn{
+  font-size: 20px!important;
+  font-weight: bold!important;
 }
