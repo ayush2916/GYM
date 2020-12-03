@@ -1,3 +1,7 @@
+body{
+  background-color: #212529;
+}
+
 .con{
   /* background-color: black; */
 padding-top:20px;
@@ -5,7 +9,7 @@ padding-bottom:20px;
 }
 .front{
   height:650px;
-  background-image: url("main.jpg");
+  background-image: url("img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,4 +20,20 @@ padding-bottom:20px;
 .btn{
   font-size: 20px!important;
   font-weight: bold!important;
+}
+.one{
+  font-family: 'Nunito Sans', sans-serif;
+    padding-top: 10%;
+    color: white;
+}
+.heading1{
+  text-align: center;
+}
+.but{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.btn-lg{
+  margin-top: 50px;
 }
