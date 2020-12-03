@@ -69,7 +69,7 @@ justify-content: center;
   background-image: url("class1.jpg");
   z-index: 1;
   height: 400px;
-  float: right;
+  float: left;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -78,7 +78,7 @@ justify-content: center;
   background-image: url("class2.jpg");
   z-index: 1;
   height: 400px;
-  float: right;
+  float: left;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -87,7 +87,7 @@ justify-content: center;
   background-image: url("class3.jpg");
   z-index: 1;
   height: 400px;
-  float: right;
+  float: left;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -96,7 +96,58 @@ justify-content: center;
   background-image: url("class4.jpg");
   z-index: 1;
   height: 400px;
-  float: right;
+  float: left;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.pac{
+  text-align: center;
+  margin-top: 80px;
+}
+.col1:hover,.col2:hover,.col3:hover,.col4:hover{
+  border-bottom-style: solid;
+  border-bottom-color: #d9534f;
+  border-width:thick;
+}
+.card{
+  float: left;
+  margin-right: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align:center;
+}
+.cards{
+  padding-top: 50px;
+  background-image: url("pricing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-top: 0;
+}
+.pricing{
+  margin-top: 385px;
+    background-image: url("https://preview.colorlib.com/theme/activitar/img/classes-title-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.health{
+  height: 550px;
+  background-image: url("health.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Join{
+    background-image: url("https://preview.colorlib.com/theme/activitar/img/classes-title-bg.jpg");
+}
+a:link {
+  font-size:26px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.social-media{
+text-align: center;
+padding-top: 20px;
 }
