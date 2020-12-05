@@ -151,3 +151,63 @@ a:link {
 text-align: center;
 padding-top: 20px;
 }
+.card{
+  width: 31%;
+}
+@media (max-width: 500px) {
+.pa{
+  margin-top: 50px;
+}
+.cards{
+  display: none;
+}
+.hide{
+  display: none;
+}
+.hid{
+  display: none!important;
+}
+.cent{
+  text-align: center;
+  padding-left: 20px;
+}
+.btn-lg{
+  margin-top: 0px;
+}
+.mobile-button{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.column{
+  width: 90%;
+}
+.pac{
+  font-size: 15px;
+}
+.pa{
+  font-size: 10px;
+}
+.btn{
+  font-size: 10px!important;
+}
+}
+@media (max-width: 1000px) and (min-width:500px) {
+  .cards{
+    padding-top: 50px;
+  }
+  .hid{
+    font-size: 15px!important;
+    margin-left: 20%!important;
+  }
+  .card{
+    width: 30%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+.abs{
+  width: 300px;
+  height: 200px;
+  margin-top: 70px;
+}
+}
